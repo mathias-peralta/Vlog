@@ -9,3 +9,11 @@
 #ulList {
     font-family: 'Raleway';
 }
+
+.navbar-light .navbar-toggler {
+    border-color: #2ECC71 !important;
+}
+
+.svg {
+    color: #2ECC71 !important;
+}
