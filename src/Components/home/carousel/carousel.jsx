@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import '../carousel/carousel.css'
+import { Link } from 'react-router-dom';
+
+
 class Carousel extends Component {
+
     render() {
         return(
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
@@ -11,24 +15,30 @@ class Carousel extends Component {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                    <img src="https://picsum.photos/1080/400" className="d-block w-100 carouselImg" alt="..."/>
+                        <Link to="/Page/1">
+                            <img src="https://picsum.photos/1080/400" className="d-block w-100 carouselImg" alt="..."/>
+                        </Link>
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3 className="carouselTitle">Bitcoin se dispara: llega a superar los 28.000 dólares y la industria habla de valores locos para 2021</h3>
+                        <p className="carouselContent">No veíamos algo así desde 2017, pero la diferencia es que ahora hasta la industria financiera parece creer en el bitcoin</p>
                     </div>
                     </div>
                     <div className="carousel-item">
-                    <img src="https://picsum.photos/1080/400" class="d-block w-100" alt="..."/>
+                        <Link to="/Page/2">
+                            <img src="https://picsum.photos/1080/400" className="d-block w-100 carouselImg" alt="..."/>
+                        </Link>
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 className="carouselTitle" >Second slide label</h3>
+                        <p className="carouselContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     </div>
                     <div className="carousel-item">
-                    <img src="https://picsum.photos/1080/400" class="d-block w-100" alt="..."/>
+                        <Link to="/Page/3">
+                            <img src="https://picsum.photos/1080/400" className="d-block w-100 carouselImg" alt="..."/>
+                        </Link>
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3 className="carouselTitle">Third slide label</h3>
+                        <p className="carouselContent">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </div>
                     </div>
                 </div>

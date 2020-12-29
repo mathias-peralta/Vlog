@@ -7,6 +7,7 @@ import  Home  from "./Components/home/home";
 import AboutMe from "./Components/aboutme/aboutMe";
 import Contact from "./Components/contact/contact";
 import Portfolio from "./Components/portfolio/portfolio";
+import Page from "./Components/page/page";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/AboutMe" component={AboutMe}/>
       <Route path="/Contact" component={Contact}/>
       <Route path="/Portfolio" component={Portfolio}/>
+      <Route path="/Page/:id" component={Page} />
     </Router>
 
   );

@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Slab:wght@400;600&display=swap');
+
+.carouselTitle {
+    font-family: 'Roboto Slab';
+}
+.carouselContent {
+    font-family: 'Raleway';
+    font-weight: bold;
+}
 .carouselImg:hover {
     opacity: 70%;
 }
