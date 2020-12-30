@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Carousel from './carousel/carousel';
 import Page from '../page/page';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import CardList from '../cardList/cardList';
 
 class Home extends Component {
     render() {
         return(
         <div>
             <Carousel />
+            <CardList />
         </div>
         )
     }
