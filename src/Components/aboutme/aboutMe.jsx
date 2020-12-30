@@ -4,7 +4,7 @@ class AboutMe extends Component {
     render() {
         return(
             <div className="container mt-3">
-                <div className="row">
+                <div className="row bgRow">
                     <div className="col-md-4 text-center p-2">
                         <img src="https://firebasestorage.googleapis.com/v0/b/vlog-7a01f.appspot.com/o/avatar.png?alt=media&token=67a15361-e9b2-4fa2-a4c3-1532322896a6" className="m-auto" width="150px" height="150px" alt=""/>
                     </div>
@@ -18,7 +18,7 @@ class AboutMe extends Component {
                 <div className=" row bgRow">
                     <h3 className="title mt-3 ml-3">Skills</h3>
                 </div>
-                <div className="row bgRow text-white text-center">
+                <div className="row bgRow text-white text-center p-3">
                     <div className="col-md-3">
                         <p className="animate__animated animate__backInLeft">HTML</p>
                         <img src="https://firebasestorage.googleapis.com/v0/b/vlog-7a01f.appspot.com/o/html-5.png?alt=media&token=8b8dfdee-0e9b-402c-bc62-3f5588862e93" 
