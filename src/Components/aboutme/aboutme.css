@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Slab:wght@400;600&display=swap');
+
+
+.col-md-4{
+    background-color: #212F3C;
+}
+.bgRow {
+    background-color: #212F3C;
+}
+.col-md-8 {
+    background-color: #212F3C;
+}
+.title {
+    font-family: 'Roboto Slab';
+    color: #3498DB;
+}
+.contenido {
+    font-family: 'Raleway';
+    font-weight: bolder;
+}
+.bi-bootstrap-fill {
+    color: #7D3C98;
+}

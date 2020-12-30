@@ -16,7 +16,11 @@ class Carousel extends Component {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <Link to="/Page/1">
-                            <img src="https://picsum.photos/1080/400" className="d-block w-100 carouselImg" alt="..."/>
+                            <img 
+                                src="https://firebasestorage.googleapis.com/v0/b/vlog-7a01f.appspot.com/o/bitcoin-a-new-concept-of-virtual-money-graphics-and-digital-background-gold-coin-with-the-image-of-the-letter-b-mining-or-the-blockchain-technology-close-up.jpg?alt=media&token=0a999fb5-b46f-44a2-b071-71ec6fb65c07" 
+                                className="d-block w-100 carouselImg"
+                                alt="..."
+                            />
                         </Link>
                     <div className="carousel-caption d-none d-md-block">
                         <h3 className="carouselTitle">Bitcoin se dispara: llega a superar los 28.000 dólares y la industria habla de valores locos para 2021</h3>
@@ -25,11 +29,11 @@ class Carousel extends Component {
                     </div>
                     <div className="carousel-item">
                         <Link to="/Page/2">
-                            <img src="https://picsum.photos/1080/400" className="d-block w-100 carouselImg" alt="..."/>
+                            <img src="https://firebasestorage.googleapis.com/v0/b/vlog-7a01f.appspot.com/o/3318.jpg?alt=media&token=de56e7f0-7d59-46b4-8035-d07623c986f8" className="d-block w-100 carouselImg" alt="..."/>
                         </Link>
                     <div className="carousel-caption d-none d-md-block">
-                        <h3 className="carouselTitle" >Second slide label</h3>
-                        <p className="carouselContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3 className="carouselTitle" >El coche de Apple llegará como pronto en 2025, siendo 2028 una fecha realista, según Ming-Chi Kuo</h3>
+                        <p className="carouselContent">Diversas fuentes fiables hablan de un Apple Car para esta década, pero Kuo llama a la calma diciendo que el mercado es demasiado optimista con él.</p>
                     </div>
                     </div>
                     <div className="carousel-item">
@@ -37,8 +41,8 @@ class Carousel extends Component {
                             <img src="https://picsum.photos/1080/400" className="d-block w-100 carouselImg" alt="..."/>
                         </Link>
                     <div className="carousel-caption d-none d-md-block">
-                        <h3 className="carouselTitle">Third slide label</h3>
-                        <p className="carouselContent">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3 className="carouselTitle">WhatsApp dejara de funcionar en estos móviles en 2021: cuáles son y cómo saber si el tuyo se verá afectado</h3>
+                        <p className="carouselContent">WhatsApp dejara de funcionar en estos móviles en 2021: cuáles son y cómo saber si el tuyo se verá afectado</p>
                     </div>
                     </div>
                 </div>

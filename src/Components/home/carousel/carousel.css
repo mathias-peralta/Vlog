@@ -8,6 +8,9 @@
     font-family: 'Raleway';
     font-weight: bold;
 }
+.carouselImg {
+    height: 70vh;
+}
 .carouselImg:hover {
     opacity: 70%;
 }
