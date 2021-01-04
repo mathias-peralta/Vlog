@@ -15,7 +15,6 @@ class Page extends Component {
         })
     }
     render() {
-        console.log(this.state.content);
         return(
             <div>
                 <img src={this.state.content.imagen} className="w-100 img-responsive" alt=""/>

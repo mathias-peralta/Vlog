@@ -1,23 +1,27 @@
-import { Carousel } from 'bootstrap';
 import React, { Component } from 'react';
 import '../card/card.css'
-
+import { Link } from 'react-router-dom';
 class Card extends Component {
 
     render() {
-        return(
+        
+        const { card,id } = this.props.card;
+
+        return (
             <div className="container mt-3">
-                <div className="card card-body p-0" id="cardEffect">
-                    <div className="row">
-                        <div className="col-md-4">
-                                <img src="https://picsum.photos/720/400" className="w-100 img-responsive" alt=""/>
-                        </div>
-                        <div className="col-md-8 p-3">
-                            <h5 className="cardTitle">Titulo</h5>
-                            <p className="cardContent">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, facilis.</p>
+                <Link to={`/Page/${id}`} className="nav nav-link text-dark">
+                    <div className="card card-body p-0" id="cardEffect" key={id}>
+                        <div className="row">
+                            <div className="col-md-4">
+                                <img src={card.imagen} className="w-100 img-responsive" alt=""/>
+                            </div>
+                            <div className="col-md-8 p-3">
+                                <h5 className="cardTitle">{card.titulo}</h5>
+                                <p className="cardContent">{card.contenido}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </Link>
             </div>
         )
     }
