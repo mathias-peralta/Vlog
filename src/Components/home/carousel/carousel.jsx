@@ -17,14 +17,14 @@ class Carousel extends Component {
                     <div className="carousel-item active">
                         <Link to="/Page/1">
                             <img 
-                                src="https://firebasestorage.googleapis.com/v0/b/vlog-7a01f.appspot.com/o/bitcoin-a-new-concept-of-virtual-money-graphics-and-digital-background-gold-coin-with-the-image-of-the-letter-b-mining-or-the-blockchain-technology-close-up.jpg?alt=media&token=0a999fb5-b46f-44a2-b071-71ec6fb65c07" 
+                                src="https://firebasestorage.googleapis.com/v0/b/vlog-7a01f.appspot.com/o/tor.jpg?alt=media&token=19616b0e-2a36-40e8-8a8e-21b728dbe91a" 
                                 className="d-block w-100 carouselImg"
                                 alt="..."
                             />
                         </Link>
                     <div className="carousel-caption d-none d-md-block">
-                        <h3 className="carouselTitle">Bitcoin se dispara: llega a superar los 28.000 dólares y la industria habla de valores locos para 2021</h3>
-                        <p className="carouselContent">No veíamos algo así desde 2017, pero la diferencia es que ahora hasta la industria financiera parece creer en el bitcoin</p>
+                        <h3 className="carouselTitle">Red Tor: qué es, como funciona y como se usa</h3>
+                        <p className="carouselContent">El nombre Tor son las siglas 'the onion router' y es posiblemente la principal y la más conocida darknet de internet</p>
                     </div>
                     </div>
                     <div className="carousel-item">
