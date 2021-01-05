@@ -8,6 +8,7 @@ import AboutMe from "./Components/aboutme/aboutMe";
 import Contact from "./Components/contact/contact";
 import Portfolio from "./Components/portfolio/portfolio";
 import Page from "./Components/page/page";
+import Certificates  from "./Components/certificates/certificates";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/Contact" component={Contact}/>
       <Route path="/Portfolio" component={Portfolio}/>
       <Route path="/Page/:id" component={Page} />
+      <Route path="/Certificates" component={Certificates}/>
     </Router>
 
   );

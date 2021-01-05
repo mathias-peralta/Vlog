@@ -33,6 +33,11 @@ class Nav extends Component {
                                 </Link>                            
                             </li>
                             <li className="nav-item">
+                                <Link to="/Certificates" className="nav-link text-white">
+                                    Certificates
+                                </Link>                            
+                            </li>
+                            <li className="nav-item">
                                 <Link to="/Contact" className="nav-link text-white">
                                     Contact
                                 </Link>   

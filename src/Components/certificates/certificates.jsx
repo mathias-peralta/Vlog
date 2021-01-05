@@ -5,7 +5,7 @@ class Certificates extends Component {
     render() {
         return(
             <div>
-                certificates
+                <p>HOla</p>
             </div>
         )
     }
