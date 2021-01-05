@@ -6,7 +6,7 @@ class AboutMe extends Component {
             <div className="container mt-3">
                 <div className="row bgRow">
                     <div className="col-md-4 text-center p-2">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/vlog-7a01f.appspot.com/o/avatar.png?alt=media&token=67a15361-e9b2-4fa2-a4c3-1532322896a6" className="m-auto" width="150px" height="150px" alt=""/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/vlog-7a01f.appspot.com/o/IMG_20200623_190129_595.jpg?alt=media&token=8f7931e7-9aa8-41ca-81c6-f38d0daed770" className="m-auto" width="150px" height="150px" alt=""/>
                     </div>
                     <div className="col-md-8 p-2">
                         <h3 className="title">Mi Perfil</h3>
