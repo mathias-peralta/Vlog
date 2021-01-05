@@ -17,27 +17,27 @@ class Nav extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ml-auto" id="ulList">
-                            <li className="nav-item active">
+                            <li className="nav-item active text-center">
                                 <Link to="/" className="nav-link text-white">
                                     Home
                                 </Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item text-center">
                                 <Link to="/AboutMe" className="nav-link text-white">
                                     AboutMe
                                 </Link>                            
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item text-center">
                                 <Link to="/Portfolio" className="nav-link text-white">
                                     Portfolio
                                 </Link>                            
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item text-center">
                                 <Link to="/Certificates" className="nav-link text-white">
                                     Certificates
                                 </Link>                            
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item text-center">
                                 <Link to="/Contact" className="nav-link text-white">
                                     Contact
                                 </Link>   
