@@ -9,7 +9,7 @@ class Portfolio extends Component {
                         <div className="col-md-4">
                             <div className="card mt-5">
                                 <img 
-                                    src="https://firebasestorage.googleapis.com/v0/b/vlog-7a01f.appspot.com/o/crud-hoy.PNG?alt=media&token=d70e4987-c7de-4d8a-912e-56cfd77515d2"
+                                    src="https://firebasestorage.googleapis.com/v0/b/vlog-7a01f.appspot.com/o/crud%20(1).png?alt=media&token=bf58a26d-56f2-4af9-97b1-1ec533c2b5d6"
                                     alt=""
                                     className="w-100 img-responsive"
                                 />
