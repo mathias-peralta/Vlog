@@ -17,3 +17,9 @@
 .bi-bootstrap-fill {
     color: #7D3C98;
 }
+
+@media screen and (max-width: 760px) {
+    .container {
+        margin-top: 0px !important
+    }
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import 'firebase/firebase-firestore';
 import firebase from 'firebase';
 import '../page/page.css'
+import Footer from '../footer/footer'
 class Page extends Component {
     state = {
         content: []
@@ -26,6 +27,7 @@ class Page extends Component {
 
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }
