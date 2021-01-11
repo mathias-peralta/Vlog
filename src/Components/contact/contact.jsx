@@ -6,7 +6,7 @@ class Contact extends Component {
         return(
             <div className="body">
                 <div className="container">
-                    <div className="card card-body bg-white w-50 m-auto mt-5">
+                    <div className="card card-body bg-white cardContact m-auto mt-5">
                         <h5>Formulario de Contacto</h5>
                         <p className="text-muted">Completa este formulario de contacto si estas interesado en tener tu propio blog o estas interesado en algún proyecto informatico</p>
                         <div className="row">

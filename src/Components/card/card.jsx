@@ -15,7 +15,7 @@ class Card extends Component {
                             <div className="col-md-4">
                                 <img src={card.imagen} className="w-100 img-responsive" alt=""/>
                             </div>
-                            <div className="col-md-8 p-3">
+                            <div className="col-md-8 p-3 colContent">
                                 <h5 className="cardTitle">{card.titulo}</h5>
                                 <p className="cardContent">{card.contenido}</p>
                             </div>

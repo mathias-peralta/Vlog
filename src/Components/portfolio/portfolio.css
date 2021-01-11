@@ -6,4 +6,9 @@
 
 }
 
-/*TODO porner quitar el fondo celeste en modo responsive*/
+
+@media screen and (max-width: 760px) {
+    .body {
+        height: auto;
+    }
+}
