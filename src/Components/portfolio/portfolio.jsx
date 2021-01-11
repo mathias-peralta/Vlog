@@ -3,6 +3,7 @@ import '../portfolio/portfolio.css'
 class Portfolio extends Component {
     render() {
         return(
+            /*Hacer que envie correos*/ 
             <div className="body">
                 <div className="container">
                     <div className="row">
